@@ -8,7 +8,7 @@
 **Building practical AI-powered applications, backend systems, and data-driven products.**
 
 [![Portfolio Projects](https://img.shields.io/badge/Explore-Projects-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Sumit-gole011)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-gole-1350191b6/)
 [![Email](https://img.shields.io/badge/Contact-Email-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
 
 </div>
@@ -117,7 +117,7 @@ Video-transcript summarization and question-answering project.
 
 Open to discussing software development, AI applications, analytics projects, and collaboration.
 
-**[LinkedIn](https://linkedin.com/in/Sumit-gole011)** · **[Email](mailto:sumitgole011@gmail.com)** · **[All repositories](https://github.com/sumitgole011?tab=repositories)**
+**[LinkedIn](https://www.linkedin.com/in/sumit-gole-1350191b6/)** · **[Email](mailto:sumitgole011@gmail.com)** · **[All repositories](https://github.com/sumitgole011?tab=repositories)**
 
 ---
 
