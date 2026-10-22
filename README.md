@@ -1,76 +1,122 @@
 <div align="center">
 
-# Hi, I'm Sumit Gole 👋
-### Generative AI & Python Developer | Full-Stack Applications | Data Analytics
+# Sumit Gole
+### Generative AI Developer · Python Engineer · Full-Stack & Data Analytics
 
-I build practical AI assistants, RAG pipelines, web applications, and business intelligence projects.
+**Building practical AI-powered applications, backend systems, and data-driven products.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/Sumit-gole011)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
-
-</div>
-
-## About Me
-
-- Building AI-powered apps, conversational assistants and retrieval-augmented generation (RAG) workflows.
-- Working across Python backends, frontend development, SQL databases and analytical dashboards.
-- Interested in turning business requirements into useful, testable software.
-- Explore my selected work below; project READMEs document scope, setup and limitations.
-
-## Technical Skills
-
-| Area | Technologies |
-| --- | --- |
-| **Programming & Web** | Python, HTML5, CSS3, JavaScript, TypeScript |
-| **Backend & Frameworks** | Django, Flask, FastAPI, React |
-| **AI & LLM Applications** | Generative AI, RAG, LLM APIs, LangChain, LangGraph |
-| **Databases & SQL** | Oracle SQL, PostgreSQL (PSQL), MySQL, SQLite |
-| **Analytics & BI** | Microsoft Excel, Power BI, DAX |
-| **Python Data Libraries** | NumPy, Pandas, Matplotlib, Seaborn |
-| **Tools & Deployment** | Git, GitHub, Docker, Cloudflare Workers, Vercel |
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Data_Analysis-F2C811?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square)
+[![Portfolio Projects](https://img.shields.io/badge/Explore-Projects-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Sumit-gole011)
+[![Email](https://img.shields.io/badge/Contact-Email-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
 
 </div>
-
-## Featured Projects
-
-| Project | What it demonstrates | Links |
-| --- | --- | --- |
-| **AURA Salon Booking & Billing** | Full-stack booking, transactional scheduling, admin workflows and Gemini chatbot | [Code](https://github.com/sumitgole011/aura-salon-booking) · [Live demo](https://aura-salon-booking.sumitg.workers.dev/) |
-| **Multi-modal Travel Agent** | AI-powered travel assistant project | [Code](https://github.com/sumitgole011/Multi-modal-travel-agent) |
-| **Mental Health RAG Bot** | Retrieval-augmented conversational AI project | [Code](https://github.com/sumitgole011/Mental-Health-RAG-Bot) |
-| **Team Task Manager** | Flask REST APIs, authentication and task workflows | [Code](https://github.com/sumitgole011/Team-task-Manager) |
-| **YouTube Video Summarizer** | Transcript retrieval and LLM-assisted video Q&A | [Code](https://github.com/sumitgole011/YT-Video-Summarizer) |
-| **Retail Revenue & Profit Intelligence** | Synthetic retail data, DAX definitions and Power BI report design; **interactive report still in progress** | [Code & status](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI) |
-| **Go Mart Sales Analysis** | Excel sales dashboard and business reporting | [Dashboard](https://github.com/sumitgole011/Go-Mart-Sales-Analysis) |
-
-## What I'm Exploring
-
-- More reliable AI agents and retrieval evaluation
-- Production-minded API design, testing and security
-- Clear business insights through Excel, SQL and Power BI
-
-## Connect
-
-For collaboration and opportunities, reach me via [LinkedIn](https://linkedin.com/in/Sumit-gole011) or [email](mailto:sumitgole011@gmail.com).
 
 ---
 
-<sub>Portfolio maintained by Sumit Gole. Project status and limitations are documented in the respective repositories.</sub>
+## 👨‍💻 About Me
+
+I work across **Generative AI, Python backend development, full-stack applications, and business intelligence**. My repositories include conversational AI, RAG-based applications, task-management systems, and analytics projects.
+
+I value clear documentation, reproducible workflows, and honest project status. Explore the featured projects below to see the architecture, setup instructions, and implementation details available for each project.
+
+## 🚀 Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💈 [AURA Salon Booking & Billing](https://github.com/sumitgole011/aura-salon-booking)
+Full-stack booking and billing application with admin workflows and a Gemini-powered chatbot.
+
+**Focus:** Full-stack development · Booking systems · AI integration
+
+[Repository](https://github.com/sumitgole011/aura-salon-booking) · [Live application](https://aura-salon-booking.sumitg.workers.dev/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent)
+AI travel-assistant project exploring multimodal interaction.
+
+**Focus:** AI applications · Agent workflows
+
+[Explore project](https://github.com/sumitgole011/Multi-modal-travel-agent)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🧠 [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
+Retrieval-augmented conversational AI project.
+
+**Focus:** RAG · Python · LLM applications
+
+[Explore project](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
+
+</td>
+<td valign="top">
+
+### 📊 [Retail Revenue & Profit Intelligence](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI)
+Synthetic retail transaction generator, KPI validation, proposed DAX measures, and dashboard design.
+
+**Focus:** Python · Data analytics · Power BI planning
+
+**Status:** Interactive report implementation pending.
+
+[Code and case study](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### ✅ [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager)
+Task-management application with Flask REST APIs and authentication workflows.
+
+**Focus:** Python · Flask · Backend APIs
+
+[Explore project](https://github.com/sumitgole011/Team-task-Manager)
+
+</td>
+<td valign="top">
+
+### 🎬 [YouTube Video Summarizer](https://github.com/sumitgole011/YT-Video-Summarizer)
+Video-transcript summarization and question-answering project.
+
+**Focus:** LLM integration · Text processing
+
+[Explore project](https://github.com/sumitgole011/YT-Video-Summarizer)
+
+</td>
+</tr>
+</table>
+
+**Also explore:** [Go Mart Sales Analysis](https://github.com/sumitgole011/Go-Mart-Sales-Analysis) — Excel-based sales analysis and reporting.
+
+## 🧰 Technical Toolkit
+
+| Area | Technologies |
+|:--|:--|
+| **Languages & Web** | Python, HTML5, CSS3, JavaScript, TypeScript |
+| **Backend & Frontend** | Django, Flask, FastAPI, React |
+| **AI & LLM** | Generative AI, RAG, LLM APIs, LangChain, LangGraph |
+| **Databases** | PostgreSQL, Oracle SQL, MySQL, SQLite |
+| **Data & BI** | Excel, Power BI, DAX, NumPy, Pandas, Matplotlib, Seaborn |
+| **Developer Tools** | Git, GitHub, Docker, Vercel, Cloudflare Workers |
+
+## 🎯 Current Focus
+
+- Building dependable RAG and AI-agent applications
+- Improving backend architecture, API testing, and deployment
+- Turning data into understandable, actionable business reporting
+
+## 🤝 Let's Connect
+
+Open to discussing software development, AI applications, analytics projects, and collaboration.
+
+**[LinkedIn](https://linkedin.com/in/Sumit-gole011)** · **[Email](mailto:sumitgole011@gmail.com)** · **[All repositories](https://github.com/sumitgole011?tab=repositories)**
+
+---
+
+<div align="center"><sub>Made with a focus on clarity, useful software, and transparent project documentation.</sub></div>
