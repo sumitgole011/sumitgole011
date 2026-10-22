@@ -1,5 +1,7 @@
 <div align="center">
 
+![Sumit Gole - Generative AI, Python, Full-Stack and Data Analytics](assets/profile-banner.svg)
+
 # Sumit Gole
 ### Generative AI Developer · Python Engineer · Full-Stack & Data Analytics
 
