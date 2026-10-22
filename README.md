@@ -84,9 +84,9 @@ Task-management application with Flask REST APIs and authentication workflows.
 <td valign="top">
 
 ### 🎬 [YouTube Video Summarizer](https://github.com/sumitgole011/YT-Video-Summarizer)
-Video-transcript summarization and question-answering project.
+Transcript-based question-answering project; dedicated automatic summarization is not yet implemented.
 
-**Focus:** LLM integration · Text processing
+**Focus:** Retrieval-augmented generation · LLM integration · Text processing
 
 [Explore project](https://github.com/sumitgole011/YT-Video-Summarizer)
 
@@ -95,6 +95,19 @@ Video-transcript summarization and question-answering project.
 </table>
 
 **Also explore:** [Go Mart Sales Analysis](https://github.com/sumitgole011/Go-Mart-Sales-Analysis) — Excel-based sales analysis and reporting.
+
+## 🧪 Verified CI checks
+
+The latest GitHub Actions workflows have passed in these repositories. **Coverage varies:** some checks validate source syntax or repository structure, while others run API regression tests or validate generated data. These badges do not establish live deployment or end-to-end AI integration success.
+
+| Project | Automated checks |
+|:--|:--|
+| [AURA Salon Booking](https://github.com/sumitgole011/aura-salon-booking) | [![AURA API tests](https://github.com/sumitgole011/aura-salon-booking/actions/workflows/api-tests.yml/badge.svg)](https://github.com/sumitgole011/aura-salon-booking/actions/workflows/api-tests.yml) |
+| [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager) | [![Team security tests](https://github.com/sumitgole011/Team-task-Manager/actions/workflows/python-security-tests.yml/badge.svg)](https://github.com/sumitgole011/Team-task-Manager/actions/workflows/python-security-tests.yml) |
+| [Retail Intelligence](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI) | [![Retail dataset validation](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI/actions/workflows/validate-retail-data.yml/badge.svg)](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI/actions/workflows/validate-retail-data.yml) |
+| [YouTube Video Q&A](https://github.com/sumitgole011/YT-Video-Summarizer) | [![YouTube source checks](https://github.com/sumitgole011/YT-Video-Summarizer/actions/workflows/python-source-checks.yml/badge.svg)](https://github.com/sumitgole011/YT-Video-Summarizer/actions/workflows/python-source-checks.yml) |
+| [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot) | [![RAG source checks](https://github.com/sumitgole011/Mental-Health-RAG-Bot/actions/workflows/source-checks.yml/badge.svg)](https://github.com/sumitgole011/Mental-Health-RAG-Bot/actions/workflows/source-checks.yml) |
+| [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent) | [![Travel agent source checks](https://github.com/sumitgole011/Multi-modal-travel-agent/actions/workflows/source-checks.yml/badge.svg)](https://github.com/sumitgole011/Multi-modal-travel-agent/actions/workflows/source-checks.yml) |
 
 ## 🧰 Technical Toolkit
 
