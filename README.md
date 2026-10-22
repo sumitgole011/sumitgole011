@@ -7,6 +7,7 @@
 
 **Building practical AI-powered applications, backend systems, and data-driven products.**
 
+[![3D Portfolio](https://img.shields.io/badge/Interactive-3D%20Portfolio-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://sumitgole011.github.io/sumitgole011/)
 [![Portfolio Projects](https://img.shields.io/badge/Explore-Projects-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-gole-1350191b6/)
 [![Email](https://img.shields.io/badge/Contact-Email-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
