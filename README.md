@@ -1,27 +1,76 @@
-# 💫 About Me:
-🤖 Generative AI Engineer | Python Developer  <br>🚀 Building LLM Apps, RAG Pipelines & AI Agents  <br>⚡ LangChain • LangGraph • Flask • FastAPI  <br>🧠 Passionate about turning ideas into intelligent solutions
+<div align="center">
 
+# Hi, I'm Sumit Gole 👋
+### Generative AI & Python Developer | Full-Stack Applications | Data Analytics
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Sumitgole) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/sumit._.g) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Sumit-gole011) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/sumitgole011) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com) 
+I build practical AI assistants, RAG pipelines, web applications, and business intelligence projects.
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Semantic UI React](https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=for-the-badge&logo=SemanticUIReact&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=sumitgole011&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=sumitgole011&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=sumitgole011&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/Sumit-gole011)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=sumitgole011&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+</div>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## About Me
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=sumitgole011&limit=5&theme=dark&combine_all_yearly_contributions=true)
+- Building AI-powered apps, conversational assistants and retrieval-augmented generation (RAG) workflows.
+- Working across Python backends, frontend development, SQL databases and analytical dashboards.
+- Interested in turning business requirements into useful, testable software.
+- Explore my selected work below; project READMEs document scope, setup and limitations.
+
+## Technical Skills
+
+| Area | Technologies |
+| --- | --- |
+| **Programming & Web** | Python, HTML5, CSS3, JavaScript, TypeScript |
+| **Backend & Frameworks** | Django, Flask, FastAPI, React |
+| **AI & LLM Applications** | Generative AI, RAG, LLM APIs, LangChain, LangGraph |
+| **Databases & SQL** | Oracle SQL, PostgreSQL (PSQL), MySQL, SQLite |
+| **Analytics & BI** | Microsoft Excel, Power BI, DAX |
+| **Python Data Libraries** | NumPy, Pandas, Matplotlib, Seaborn |
+| **Tools & Deployment** | Git, GitHub, Docker, Cloudflare Workers, Vercel |
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data_Analysis-F2C811?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square)
+
+</div>
+
+## Featured Projects
+
+| Project | What it demonstrates | Links |
+| --- | --- | --- |
+| **AURA Salon Booking & Billing** | Full-stack booking, transactional scheduling, admin workflows and Gemini chatbot | [Code](https://github.com/sumitgole011/aura-salon-booking) · [Live demo](https://aura-salon-booking.sumitg.workers.dev/) |
+| **Multi-modal Travel Agent** | AI-powered travel assistant project | [Code](https://github.com/sumitgole011/Multi-modal-travel-agent) |
+| **Mental Health RAG Bot** | Retrieval-augmented conversational AI project | [Code](https://github.com/sumitgole011/Mental-Health-RAG-Bot) |
+| **Team Task Manager** | Flask REST APIs, authentication and task workflows | [Code](https://github.com/sumitgole011/Team-task-Manager) |
+| **YouTube Video Summarizer** | Transcript retrieval and LLM-assisted video Q&A | [Code](https://github.com/sumitgole011/YT-Video-Summarizer) |
+| **Retail Revenue & Profit Intelligence** | Synthetic retail data, DAX definitions and Power BI report design; **interactive report still in progress** | [Code & status](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI) |
+| **Go Mart Sales Analysis** | Excel sales dashboard and business reporting | [Dashboard](https://github.com/sumitgole011/Go-Mart-Sales-Analysis) |
+
+## What I'm Exploring
+
+- More reliable AI agents and retrieval evaluation
+- Production-minded API design, testing and security
+- Clear business insights through Excel, SQL and Power BI
+
+## Connect
+
+For collaboration and opportunities, reach me via [LinkedIn](https://linkedin.com/in/Sumit-gole011) or [email](mailto:sumitgole011@gmail.com).
 
 ---
-[![](https://komarev.com/ghpvc/?username=sumitgole011&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<sub>Portfolio maintained by Sumit Gole. Project status and limitations are documented in the respective repositories.</sub>
