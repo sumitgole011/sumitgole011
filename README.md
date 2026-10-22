@@ -28,6 +28,8 @@ I value clear documentation, reproducible workflows, and honest project status. 
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://github.com/sumitgole011/aura-salon-booking"><img src="https://raw.githubusercontent.com/sumitgole011/aura-salon-booking/main/docs/Studio_Dashboard.png" alt="AURA Salon Booking admin dashboard screenshot" width="400"></a>
+
 ### 💈 [AURA Salon Booking & Billing](https://github.com/sumitgole011/aura-salon-booking)
 Full-stack booking and billing application with admin workflows and a Gemini-powered chatbot.
 
@@ -37,6 +39,8 @@ Full-stack booking and billing application with admin workflows and a Gemini-pow
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://github.com/sumitgole011/Multi-modal-travel-agent"><img src="https://raw.githubusercontent.com/sumitgole011/Multi-modal-travel-agent/main/multi-modal-travel-agent/graph.png" alt="LangGraph multi-modal travel agent workflow diagram" width="400"></a>
 
 ### 🧭 [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent)
 AI travel-assistant project exploring multimodal interaction.
