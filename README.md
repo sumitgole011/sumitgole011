@@ -7,9 +7,11 @@
 
 **Building practical AI-powered applications, backend systems, and data-driven products.**
 
-[![3D Portfolio](https://img.shields.io/badge/Interactive-3D%20Portfolio-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://sumitgole011.github.io/sumitgole011/)
+[![3D Portfolio](https://img.shields.io/badge/Interactive-3D%20Portfolio-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://llm-architect-hub.lovable.app)
 [![Portfolio Projects](https://img.shields.io/badge/Explore-Projects-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-gole011/)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-gole-1350191b6/)
+[![Resume](https://img.shields.io/badge/View-Resume-2563EB?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/177412uIRMANvb0dHL3sHBF89uNcnsXZ7/view?usp=drivesdk)
+[![Instagram](https://img.shields.io/badge/Follow-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/unscripted.sumit/)
 [![Email](https://img.shields.io/badge/Contact-Email-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
 
 </div>
@@ -131,7 +133,7 @@ The latest GitHub Actions workflows have passed in these repositories. **Coverag
 
 Open to discussing software development, AI applications, analytics projects, and collaboration.
 
-**[LinkedIn](https://www.linkedin.com/in/sumit-gole011/)** · **[Email](mailto:sumitgole011@gmail.com)** · **[All repositories](https://github.com/sumitgole011?tab=repositories)**
+**[LinkedIn](https://www.linkedin.com/in/sumit-gole-1350191b6/)** · **[GitHub](https://github.com/sumitgole011)** · **[Portfolio](https://llm-architect-hub.lovable.app)** · **[Resume](https://drive.google.com/file/d/177412uIRMANvb0dHL3sHBF89uNcnsXZ7/view?usp=drivesdk)** · **[Instagram](https://www.instagram.com/unscripted.sumit/)** · **[Email](mailto:sumitgole011@gmail.com)**
 
 ---
 
