@@ -4,7 +4,7 @@
 
 I build retrieval-augmented generation (RAG) applications and Python APIs. I previously interned at Ethara AI and am open to roles in applied AI and Python backend development.
 
-[Developer portfolio](https://sumitgole011.github.io/sumitgole011/) · [LinkedIn](https://www.linkedin.com/in/sumit-gole011/) · [Email](mailto:sumitgole011@gmail.com) · [All repositories](https://github.com/sumitgole011?tab=repositories)
+[Developer portfolio](https://sumitgole011.github.io/sumitgole011/) · [Analytics dashboards](https://sumitgole011.github.io/PowerBI-Industry-Analytics-Portfolio/) · [LinkedIn](https://www.linkedin.com/in/sumit-gole011/) · [Email](mailto:sumitgole011@gmail.com) · [All repositories](https://github.com/sumitgole011?tab=repositories)
 
 ## Featured projects
 
@@ -29,4 +29,4 @@ A Flask and SQLAlchemy app for team projects and task assignments. API tests cov
 ## More work
 
 - [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent) uses LangGraph to route travel questions between document retrieval and web search, with weather forecasts and destination images in Streamlit.
-- [Power BI Industry Analytics Portfolio](https://github.com/sumitgole011/PowerBI-Industry-Analytics-Portfolio) includes four case studies with synthetic data, KPI validation, and [interactive HTML dashboards](https://sumitgole011.github.io/PowerBI-Industry-Analytics-Portfolio/). Native Power BI reports are planned.
+- [Power BI Industry Analytics Portfolio](https://github.com/sumitgole011/PowerBI-Industry-Analytics-Portfolio) includes four synthetic-data case studies, KPI validation, and an editable SaaS Power BI project.
