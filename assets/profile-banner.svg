@@ -1,11 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sumit Gole - Generative AI, Python, Full-Stack and Data Analytics">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1320"/><stop offset="1" stop-color="#10263B"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#2DD4BF"/><stop offset="1" stop-color="#60A5FA"/></linearGradient></defs>
-<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
-<circle cx="1080" cy="52" r="170" fill="#14B8A6" opacity=".08"/><circle cx="1150" cy="275" r="135" fill="#60A5FA" opacity=".07"/>
-<path d="M0 285 H1200" stroke="#2DD4BF" stroke-opacity=".25"/>
-<rect x="52" y="52" width="6" height="198" rx="3" fill="url(#a)"/>
-<text x="86" y="105" fill="#9FE9DF" font-family="Arial,Helvetica,sans-serif" font-size="21" letter-spacing="3">HELLO, I'M</text>
-<text x="84" y="174" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="bold">Sumit Gole</text>
-<text x="87" y="221" fill="#B9C9D9" font-family="Arial,Helvetica,sans-serif" font-size="23">Generative AI  •  Python  •  Full-Stack  •  Data Analytics</text>
-<g fill="none" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M970 130 l-32 29 32 29 M1055 130 l32 29 -32 29"/><path d="M1034 112 l-40 95"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title description">
+  <title id="title">Sumit Gole | Applied AI and Python backend</title>
+  <desc id="description">A dark green banner with a document Q&amp;A workflow showing retrieval, drafting and source verification.</desc>
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#112820"/>
+      <stop offset="1" stop-color="#0b1e19"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#193b30"/>
+      <stop offset="1" stop-color="#142e26"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#9de7c6" opacity=".22"/>
+    </pattern>
+    <clipPath id="bounds">
+      <rect width="1280" height="300" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bounds)">
+    <rect width="1280" height="300" fill="url(#background)"/>
+    <path d="M785 0h495v300H746z" fill="url(#panel)"/>
+    <path d="M785 0h495v300H746z" fill="url(#grid)"/>
+    <path d="M785 0l-39 300" stroke="#38594e"/>
+    <path d="M776 0l-39 300" stroke="#29463d"/>
+    <rect x="74" y="230" width="72" height="4" rx="2" fill="#a4e9c4"/>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="299" rx="23.5" fill="none" stroke="#3c5c50"/>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="69" y="144" fill="#f0f8f2" font-size="94" font-weight="750" letter-spacing="-4">Sumit Gole</text>
+    <text x="75" y="194" fill="#b8d5c9" font-size="35" font-weight="500" letter-spacing="-.5">Applied AI &amp; Python backend</text>
+
+    <g transform="translate(827 44)">
+      <path d="M17 27v156" stroke="#7ac3a6" stroke-width="2"/>
+      <g font-size="23" font-weight="550">
+        <g>
+          <circle cx="17" cy="27" r="6" fill="#a4e9c4"/>
+          <rect x="46" width="320" height="54" rx="8" fill="#122d24" stroke="#436e5e"/>
+          <text x="66" y="35" fill="#eef7f0">Retrieve passages</text>
+        </g>
+        <g transform="translate(0 78)">
+          <circle cx="17" cy="27" r="6" fill="#a4e9c4"/>
+          <rect x="46" width="320" height="54" rx="8" fill="#122d24" stroke="#436e5e"/>
+          <text x="66" y="35" fill="#eef7f0">Draft an answer</text>
+        </g>
+        <g transform="translate(0 156)">
+          <circle cx="17" cy="27" r="7" fill="#a4e9c4"/>
+          <rect x="46" width="320" height="54" rx="8" fill="#254c3f" stroke="#8dceac"/>
+          <text x="66" y="35" fill="#ecfff3">Check source quotes</text>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
