@@ -1,142 +1,32 @@
-<div align="center">
-
-![Sumit Gole - Generative AI, Python, Full-Stack and Data Analytics](assets/profile-banner.svg)
-
 # Sumit Gole
-### Generative AI Developer · Python Engineer · Full-Stack & Data Analytics
 
-**Building practical AI-powered applications, backend systems, and data-driven products.**
+**Generative AI & Python Backend Developer**
 
-[![3D Portfolio](https://img.shields.io/badge/Interactive-3D%20Portfolio-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://sumitgole011.github.io/sumitgole011/)
-[![Portfolio Projects](https://img.shields.io/badge/Explore-Projects-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitgole011?tab=repositories)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-gole011/)
-[![Email](https://img.shields.io/badge/Contact-Email-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitgole011@gmail.com)
+I build retrieval-augmented generation (RAG) applications and Python APIs. I previously interned at Ethara AI and am open to roles in applied AI and Python backend development.
 
-</div>
+[Developer portfolio](https://sumitgole011.github.io/sumitgole011/) · [LinkedIn](https://www.linkedin.com/in/sumit-gole011/) · [Email](mailto:sumitgole011@gmail.com) · [All repositories](https://github.com/sumitgole011?tab=repositories)
 
----
+## Featured projects
 
-## 👨‍💻 About Me
+### [AURA Salon Booking & Billing](https://github.com/sumitgole011/aura-salon-booking)
 
-I work across **Generative AI, Python backend development, full-stack applications, and business intelligence**. My repositories include conversational AI, RAG-based applications, task-management systems, and analytics projects.
+A deployed React and TypeScript app for appointments and invoicing. The booking API reserves time slots in one Cloudflare D1 transaction to prevent overlaps. The Gemini assistant uses the current service catalog as context.
 
-I value clear documentation, reproducible workflows, and honest project status. Explore the featured projects below to see the architecture, setup instructions, and implementation details available for each project.
+[Live demo](https://aura-salon-booking.sumitg.workers.dev/) · [Architecture](https://github.com/sumitgole011/aura-salon-booking/blob/main/docs/architecture.md) · [API test runs](https://github.com/sumitgole011/aura-salon-booking/actions/workflows/api-tests.yml)
 
-## 🚀 Featured Work
+### [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A Python and Flask prototype that combines keyword and semantic retrieval. In a small pilot with 10 new questions, hybrid search found the annotated evidence in the top two results for 8 questions. Similarity search also found it for 8, and the MMR baseline found it for 5. The retrieval pilot runs without a Groq key. The chat path needs a model update.
 
-<a href="https://github.com/sumitgole011/aura-salon-booking"><img src="https://raw.githubusercontent.com/sumitgole011/aura-salon-booking/main/docs/Studio_Dashboard.png" alt="AURA Salon Booking admin dashboard screenshot" width="400"></a>
+[Evaluation results and reproduction steps](https://github.com/sumitgole011/Mental-Health-RAG-Bot/blob/main/docs/retrieval-evaluation.md)
 
-### 💈 [AURA Salon Booking & Billing](https://github.com/sumitgole011/aura-salon-booking)
-Full-stack booking and billing application with admin workflows and a Gemini-powered chatbot.
+### [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager)
 
-**Focus:** Full-stack development · Booking systems · AI integration
+A Flask and SQLAlchemy app for team projects and task assignments. API tests cover signup roles, project access, and task updates.
 
-[Repository](https://github.com/sumitgole011/aura-salon-booking) · [Live application](https://aura-salon-booking.sumitg.workers.dev/)
+[API test runs](https://github.com/sumitgole011/Team-task-Manager/actions/workflows/python-security-tests.yml)
 
-</td>
-<td width="50%" valign="top">
+## More work
 
-<a href="https://github.com/sumitgole011/Multi-modal-travel-agent"><img src="https://raw.githubusercontent.com/sumitgole011/Multi-modal-travel-agent/main/multi-modal-travel-agent/graph.png" alt="LangGraph multi-modal travel agent workflow diagram" width="400"></a>
-
-### 🧭 [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent)
-AI travel-assistant project exploring multimodal interaction.
-
-**Focus:** AI applications · Agent workflows
-
-[Explore project](https://github.com/sumitgole011/Multi-modal-travel-agent)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🧠 [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
-Retrieval-augmented conversational AI project.
-
-**Focus:** RAG · Python · LLM applications
-
-[Explore project](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
-
-</td>
-<td valign="top">
-
-### 📊 [Retail Revenue & Profit Intelligence](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI)
-Synthetic retail transaction generator, KPI validation, proposed DAX measures, and dashboard design.
-
-**Focus:** Python · Data analytics · Power BI planning
-
-**Status:** Interactive report implementation pending.
-
-[Code and case study](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### ✅ [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager)
-Task-management application with Flask REST APIs and authentication workflows.
-
-**Focus:** Python · Flask · Backend APIs
-
-[Explore project](https://github.com/sumitgole011/Team-task-Manager)
-
-</td>
-<td valign="top">
-
-### 🎬 [YouTube Video Summarizer](https://github.com/sumitgole011/YT-Video-Summarizer)
-Transcript-based question-answering project; dedicated automatic summarization is not yet implemented.
-
-**Focus:** Retrieval-augmented generation · LLM integration · Text processing
-
-[Explore project](https://github.com/sumitgole011/YT-Video-Summarizer)
-
-</td>
-</tr>
-</table>
-
-**Also explore:** [Go Mart Sales Analysis](https://github.com/sumitgole011/Go-Mart-Sales-Analysis) — Excel-based sales analysis and reporting.
-
-## 🧪 Verified CI checks
-
-The latest GitHub Actions workflows have passed in these repositories. **Coverage varies:** some checks validate source syntax or repository structure, while others run API regression tests or validate generated data. These badges do not establish live deployment or end-to-end AI integration success.
-
-| Project | Automated checks |
-|:--|:--|
-| [AURA Salon Booking](https://github.com/sumitgole011/aura-salon-booking) | [![AURA API tests](https://github.com/sumitgole011/aura-salon-booking/actions/workflows/api-tests.yml/badge.svg)](https://github.com/sumitgole011/aura-salon-booking/actions/workflows/api-tests.yml) |
-| [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager) | [![Team security tests](https://github.com/sumitgole011/Team-task-Manager/actions/workflows/python-security-tests.yml/badge.svg)](https://github.com/sumitgole011/Team-task-Manager/actions/workflows/python-security-tests.yml) |
-| [Retail Intelligence](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI) | [![Retail dataset validation](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI/actions/workflows/validate-retail-data.yml/badge.svg)](https://github.com/sumitgole011/Retail-Revenue-Profit-Intelligence-PowerBI/actions/workflows/validate-retail-data.yml) |
-| [YouTube Video Q&A](https://github.com/sumitgole011/YT-Video-Summarizer) | [![YouTube source checks](https://github.com/sumitgole011/YT-Video-Summarizer/actions/workflows/python-source-checks.yml/badge.svg)](https://github.com/sumitgole011/YT-Video-Summarizer/actions/workflows/python-source-checks.yml) |
-| [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot) | [![RAG source checks](https://github.com/sumitgole011/Mental-Health-RAG-Bot/actions/workflows/source-checks.yml/badge.svg)](https://github.com/sumitgole011/Mental-Health-RAG-Bot/actions/workflows/source-checks.yml) |
-| [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent) | [![Travel agent source checks](https://github.com/sumitgole011/Multi-modal-travel-agent/actions/workflows/source-checks.yml/badge.svg)](https://github.com/sumitgole011/Multi-modal-travel-agent/actions/workflows/source-checks.yml) |
-
-## 🧰 Technical Toolkit
-
-| Area | Technologies |
-|:--|:--|
-| **Languages & Web** | Python, HTML5, CSS3, JavaScript, TypeScript |
-| **Backend & Frontend** | Django, Flask, FastAPI, React |
-| **AI & LLM** | Generative AI, RAG, LLM APIs, LangChain, LangGraph |
-| **Databases** | PostgreSQL, Oracle SQL, MySQL, SQLite |
-| **Data & BI** | Excel, Power BI, DAX, NumPy, Pandas, Matplotlib, Seaborn |
-| **Developer Tools** | Git, GitHub, Docker, Vercel, Cloudflare Workers |
-
-## 🎯 Current Focus
-
-- Building dependable RAG and AI-agent applications
-- Improving backend architecture, API testing, and deployment
-- Turning data into understandable, actionable business reporting
-
-## 🤝 Let's Connect
-
-Open to discussing software development, AI applications, analytics projects, and collaboration.
-
-**[LinkedIn](https://www.linkedin.com/in/sumit-gole011/)** · **[Email](mailto:sumitgole011@gmail.com)** · **[All repositories](https://github.com/sumitgole011?tab=repositories)**
-
----
-
-<div align="center"><sub>Made with a focus on clarity, useful software, and transparent project documentation.</sub></div>
+- [Multi-modal Travel Agent](https://github.com/sumitgole011/Multi-modal-travel-agent) uses LangGraph to route travel questions between document retrieval and web search, with weather forecasts and destination images in Streamlit.
+- [Power BI Industry Analytics Portfolio](https://github.com/sumitgole011/PowerBI-Industry-Analytics-Portfolio) includes four case studies with synthetic data, KPI validation, and [interactive HTML dashboards](https://sumitgole011.github.io/PowerBI-Industry-Analytics-Portfolio/). Native Power BI reports are planned.
