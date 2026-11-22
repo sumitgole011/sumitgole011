@@ -16,9 +16,9 @@ A deployed React and TypeScript app for appointments and invoicing. The booking 
 
 ### [Mental Health RAG Bot](https://github.com/sumitgole011/Mental-Health-RAG-Bot)
 
-A Python and Flask prototype that combines keyword and semantic retrieval. In a small pilot with 10 new questions, hybrid search found the annotated evidence in the top two results for 8 questions. Similarity search also found it for 8, and the MMR baseline found it for 5. The retrieval pilot runs without a Groq key. The chat path needs a model update.
+A Python and Flask prototype that combines keyword and semantic retrieval. In a small pilot with 10 new questions, hybrid search found the annotated evidence in the top two results for 8 questions. Similarity search also found it for 8, and the MMR baseline found it for 5. The retrieval pilot runs without a Groq key. The chat API verifies source quotations and returns an evidence fallback when it cannot cite a passage.
 
-[Evaluation results and reproduction steps](https://github.com/sumitgole011/Mental-Health-RAG-Bot/blob/main/docs/retrieval-evaluation.md)
+[Chat setup and examples](https://github.com/sumitgole011/Mental-Health-RAG-Bot#run-locally) · [Evaluation results and reproduction steps](https://github.com/sumitgole011/Mental-Health-RAG-Bot/blob/main/docs/retrieval-evaluation.md)
 
 ### [Team Task Manager](https://github.com/sumitgole011/Team-task-Manager)
 
