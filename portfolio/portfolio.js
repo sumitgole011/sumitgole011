@@ -1,5 +1,124 @@
 "use strict";
 
+const root = document.documentElement;
+const themeSwitch = document.getElementById("theme-switch");
+const focusSwitch = document.getElementById("focus-switch");
+const darkPreference = matchMedia("(prefers-color-scheme: dark)");
+const motionPreference = matchMedia("(prefers-reduced-motion: reduce)");
+
+function readPreference(name) {
+  try { return localStorage.getItem("sumit-portfolio-" + name); } catch { return null; }
+}
+
+function savePreference(name, value) {
+  try { localStorage.setItem("sumit-portfolio-" + name, value); } catch { /* Preferences still apply to this visit. */ }
+}
+
+function applyTheme(theme) {
+  const dark = theme === "dark";
+  root.dataset.theme = dark ? "dark" : "light";
+  themeSwitch.textContent = dark ? "Light" : "Dark";
+  themeSwitch.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+  document.querySelector('meta[name="theme-color"]').content = dark ? "#19221e" : "#f3eee5";
+}
+
+let selectedTheme = readPreference("theme");
+applyTheme(selectedTheme ?? (darkPreference.matches ? "dark" : "light"));
+themeSwitch.addEventListener("click", () => {
+  selectedTheme = root.dataset.theme === "dark" ? "light" : "dark";
+  applyTheme(selectedTheme);
+  savePreference("theme", selectedTheme);
+});
+darkPreference.addEventListener?.("change", event => {
+  if (!selectedTheme) applyTheme(event.matches ? "dark" : "light");
+});
+
+const pageAnimations = new Set();
+
+function stopPageAnimations() {
+  for (const animation of pageAnimations) animation.cancel();
+  pageAnimations.clear();
+}
+
+function applyFocus(enabled) {
+  root.dataset.focus = String(enabled);
+  focusSwitch.setAttribute("aria-pressed", String(enabled));
+  if (enabled) stopPageAnimations();
+}
+
+applyFocus(readPreference("focus") === "true");
+focusSwitch.addEventListener("click", () => {
+  const enabled = root.dataset.focus !== "true";
+  applyFocus(enabled);
+  savePreference("focus", String(enabled));
+});
+motionPreference.addEventListener?.("change", event => {
+  if (event.matches) stopPageAnimations();
+});
+
+function showOnArrival(element, offset, duration, delay = 0) {
+  if (motionPreference.matches || root.dataset.focus === "true" || typeof element.animate !== "function") return;
+  const animation = element.animate(
+    [{ opacity: .68, transform: "translateY(" + offset + "px)" }, { opacity: 1, transform: "translateY(0)" }],
+    { duration, delay, easing: "cubic-bezier(.22, 1, .36, 1)", fill: "backwards" }
+  );
+  pageAnimations.add(animation);
+  animation.finished.then(() => pageAnimations.delete(animation), () => pageAnimations.delete(animation));
+}
+
+if (!location.hash || location.hash === "#home") {
+  showOnArrival(document.querySelector(".hero-intro"), 14, 580);
+  showOnArrival(document.querySelector(".trace"), 18, 620, 65);
+}
+
+if ("IntersectionObserver" in window) {
+  const arrivals = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      arrivals.unobserve(entry.target);
+      showOnArrival(entry.target, 12, 430);
+    }
+  }, { threshold: .16 });
+  document.querySelectorAll(".section-heading, .project-card, .index-heading, .work-notes section")
+    .forEach(element => arrivals.observe(element));
+}
+
+const navLinks = [...document.querySelectorAll(".site-header nav a[href^='#']")];
+const chapters = navLinks.map(link => document.getElementById(link.hash.slice(1)));
+const readingProgress = document.getElementById("reading-progress");
+let readingFrame;
+
+function updateReading() {
+  readingFrame = undefined;
+  const extent = root.scrollHeight - innerHeight;
+  const fraction = extent > 0 ? Math.max(0, Math.min(1, scrollY / extent)) : 0;
+  readingProgress.style.transform = "scaleX(" + fraction + ")";
+  let active = -1;
+  let closest = -Infinity;
+  const boundary = document.querySelector(".site-header").offsetHeight + 36;
+  chapters.forEach((chapter, index) => {
+    const top = chapter.getBoundingClientRect().top;
+    if (top > boundary) return;
+    if (top > closest + 2 || (Math.abs(top - closest) <= 2 && navLinks[index].hash === location.hash)) {
+      active = index;
+      closest = top;
+    }
+  });
+  if (fraction > .985) active = chapters.length - 1;
+  navLinks.forEach((link, index) => {
+    if (index === active) link.setAttribute("aria-current", "location");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+function scheduleReading() {
+  if (readingFrame === undefined) readingFrame = requestAnimationFrame(updateReading);
+}
+
+window.addEventListener("scroll", scheduleReading, { passive: true });
+window.addEventListener("resize", scheduleReading);
+scheduleReading();
+
 const traces = {
   booklet: {
     question: "What kind of setting is suggested for practising relaxation?",
@@ -67,7 +186,7 @@ document.querySelectorAll("[data-rotate]").forEach(button => {
 document.getElementById("reset-view").addEventListener("click", () => setView(defaultView.yaw, defaultView.pitch));
 
 viewport.addEventListener("pointerdown", event => {
-  if (!event.isPrimary || event.button !== 0) return;
+  if (!event.isPrimary || event.button !== 0 || root.dataset.focus === "true") return;
   drag = { id: event.pointerId, x: event.clientX, y: event.clientY, view, started: false };
 });
 
@@ -112,6 +231,7 @@ filters.forEach(filter => filter.addEventListener("click", () => {
   });
   filters.forEach(button => button.setAttribute("aria-pressed", String(button === filter)));
   projectCount.textContent = visible + (visible === 1 ? " project" : " projects");
+  scheduleReading();
 }));
 document.getElementById("project-toolbar").hidden = false;
 
@@ -167,6 +287,12 @@ function requestClose() {
   document.getElementById("projects").scrollIntoView();
 }
 
+function openCase(key, trigger) {
+  opener = trigger;
+  history.pushState({ portfolioCase: key }, "", "#case-" + key);
+  syncCase();
+}
+
 if (typeof dialog.showModal === "function") {
   for (const link of document.querySelectorAll("a[data-case]")) {
     const key = link.dataset.case;
@@ -174,9 +300,7 @@ if (typeof dialog.showModal === "function") {
     link.addEventListener("click", event => {
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
       event.preventDefault();
-      opener = link;
-      history.pushState({ portfolioCase: key }, "", link.hash);
-      syncCase();
+      openCase(key, link);
     });
   }
 
@@ -209,3 +333,143 @@ if (typeof dialog.showModal === "function") {
   window.addEventListener("hashchange", syncCase);
   syncCase();
 }
+
+const searchDialog = document.getElementById("search-dialog");
+const searchInput = document.getElementById("search-input");
+const searchResults = document.getElementById("search-results");
+const searchEmpty = document.getElementById("search-empty");
+const searchButton = document.getElementById("open-search");
+const searchCanOpen = typeof searchDialog.showModal === "function";
+const projectEntries = [...document.querySelectorAll(".index-row")].map(link => ({
+  title: link.querySelector(".index-name").textContent,
+  type: link.querySelector(".index-area").textContent,
+  terms: link.querySelector(".index-evidence").textContent + (link.dataset.case === "analytics" ? " SaaS banking healthcare supply chain Power BI" : ""),
+  href: link.getAttribute("href"),
+  key: link.dataset.case
+}));
+const sectionEntries = [
+  ["Selected projects", "#projects", "work case studies"],
+  ["Project index", "#index", "all projects"],
+  ["Experience", "#experience", "Ethara AI internships"],
+  ["Tools I use", "#skills", "skills stack"],
+  ["About me", "#about", "profile education"],
+  ["Design work", "#creative", "posters graphics"],
+  ["Contact", "#contact", "email LinkedIn"],
+].map(([title, href, terms]) => ({ title, href, terms, type: "Section" }));
+const entries = [...projectEntries, ...sectionEntries];
+let matches = [];
+let activeResult = -1;
+let searchReturn;
+let restoreSearchFocus = true;
+
+function selectResult(index, scroll = false) {
+  activeResult = index;
+  const options = [...searchResults.children];
+  options.forEach((option, i) => option.setAttribute("aria-selected", String(i === index)));
+  const active = options[index];
+  if (active) {
+    searchInput.setAttribute("aria-activedescendant", active.id);
+    if (scroll) active.scrollIntoView({ block: "nearest", behavior: "instant" });
+  } else searchInput.removeAttribute("aria-activedescendant");
+}
+
+function renderSearch() {
+  const words = searchInput.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  matches = entries.filter(item => {
+    const searchText = [item.title, item.type, item.terms].join(" ").toLowerCase();
+    return words.every(word => searchText.includes(word));
+  });
+  searchResults.replaceChildren(...matches.map((item, i) => {
+    const option = document.createElement("li");
+    option.id = "search-option-" + i;
+    option.setAttribute("role", "option");
+    option.dataset.index = String(i);
+    const title = document.createElement("span");
+    title.textContent = item.title;
+    const type = document.createElement("span");
+    type.className = "search-result-type";
+    type.textContent = item.type;
+    option.append(title, type);
+    return option;
+  }));
+  searchEmpty.hidden = matches.length > 0;
+  searchInput.setAttribute("aria-expanded", String(matches.length > 0));
+  selectResult(matches.length > 0 ? 0 : -1);
+}
+
+function showSearch() {
+  searchReturn = document.activeElement;
+  restoreSearchFocus = true;
+  searchInput.value = "";
+  renderSearch();
+  document.body.classList.add("search-open");
+  searchDialog.showModal();
+  searchInput.focus();
+}
+
+function openResult(item) {
+  if (!item) return;
+  restoreSearchFocus = false;
+  searchDialog.close();
+  if (item.key && typeof dialog.showModal === "function") {
+    openCase(item.key, searchReturn instanceof HTMLElement ? searchReturn : searchButton);
+  } else if (item.href.startsWith("#")) {
+    const section = document.getElementById(item.href.slice(1));
+    if (location.hash === item.href) section.scrollIntoView();
+    else location.hash = item.href;
+    const heading = section.querySelector("h2") ?? section;
+    heading.tabIndex = -1;
+    heading.focus({ preventScroll: true });
+  } else location.assign(item.href);
+}
+
+if (searchCanOpen) {
+  const system = navigator.userAgentData?.platform ?? navigator.platform;
+  document.getElementById("search-shortcut").textContent = /mac/i.test(system) ? "⌘ K" : "Ctrl K";
+  searchButton.addEventListener("click", showSearch);
+  document.getElementById("close-search").addEventListener("click", () => searchDialog.close());
+  searchInput.addEventListener("input", renderSearch);
+  searchInput.addEventListener("keydown", event => {
+    if (event.isComposing) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      searchDialog.close();
+    } else if ((event.key === "ArrowDown" || event.key === "ArrowUp") && matches.length) {
+      event.preventDefault();
+      const offset = event.key === "ArrowDown" ? 1 : -1;
+      selectResult((activeResult + offset + matches.length) % matches.length, true);
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      openResult(matches[activeResult]);
+    }
+  });
+  searchResults.addEventListener("pointermove", event => {
+    const option = event.target.closest("[data-index]");
+    if (option && Number(option.dataset.index) !== activeResult) selectResult(Number(option.dataset.index));
+  });
+  searchResults.addEventListener("click", event => {
+    const option = event.target.closest("[data-index]");
+    if (option) openResult(matches[Number(option.dataset.index)]);
+  });
+  searchDialog.addEventListener("close", () => {
+    if (searchDialog.open) return;
+    document.body.classList.remove("search-open");
+    searchInput.setAttribute("aria-expanded", "false");
+    if (restoreSearchFocus && searchReturn instanceof HTMLElement) searchReturn.focus({ preventScroll: true });
+  });
+} else searchButton.hidden = true;
+
+document.addEventListener("keydown", event => {
+  if (event.defaultPrevented || event.isComposing || event.repeat) return;
+  const key = event.key.toLowerCase();
+  if (key === "k" && (event.metaKey || event.ctrlKey) && searchCanOpen && !dialog.open) {
+    event.preventDefault();
+    if (searchDialog.open) searchDialog.close();
+    else showSearch();
+  } else if (key === "z" && !event.metaKey && !event.ctrlKey && !event.altKey && !dialog.open && !searchDialog.open &&
+      !event.target?.closest?.("input, textarea, select, [contenteditable]")) {
+    focusSwitch.click();
+  }
+});
+
+document.getElementById("nav-tools").hidden = false;
